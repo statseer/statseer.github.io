@@ -2,7 +2,7 @@
 title: "statseer.github.io"
 ---
 
-This is a Quarto website.
+HI!!
 
 To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
 
