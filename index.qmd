@@ -1,6 +1,6 @@
 ---
-title: "statseer.github.io"
+title: "Stat Seer"
 ---
 
 HI!!
-
+ddd
