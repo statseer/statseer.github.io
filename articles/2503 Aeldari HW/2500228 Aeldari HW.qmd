@@ -9,6 +9,10 @@ execute:
   warning: false
 website:
   back-to-top-navigation: true
+format:
+  html:
+    include-in-header:
+      - file: plotly_ref.html
 
 ---
 
