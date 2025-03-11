@@ -1,0 +1,32 @@
+
+
+
+## Trukk
+{{< include 'stats_Tr.html' echo=false >}}
+
+## Boyz
+{{< include 'stats_Bo.html' echo=false >}}
+
+## Terminator Squad
+{{< include 'stats_TS.html' echo=false >}}
+
+## Intercessor Squad
+{{< include 'stats_IS.html' echo=false >}}
+
+## Impulsor
+{{< include 'stats_Im.html' echo=false >}}
+
+## Crisis Sunforge Battlesuits
+{{< include 'stats_CSB.html' echo=false >}}
+
+## Strike Team
+{{< include 'stats_ST.html' echo=false >}}
+
+## Tyrannofex
+{{< include 'stats_Ty.html' echo=false >}}
+
+## Tyrant Guard
+{{< include 'stats_TG.html' echo=false >}}
+
+## Termagants
+{{< include 'stats_Te.html' echo=false >}}

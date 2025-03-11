@@ -3,7 +3,8 @@ project:
   output-dir: docs
 
 website:
-  title: "statseer.github.io"
+  title: "StatSeer"
+  back-to-top-navigation: false
   navbar:
     left:
       - href: index.qmd
@@ -12,9 +13,13 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
     toc: true
+    smooth-scroll: true
+    link-external-icon: true
+    link-external-newwindow: true
+    fig-cap-location: top
 
 
 

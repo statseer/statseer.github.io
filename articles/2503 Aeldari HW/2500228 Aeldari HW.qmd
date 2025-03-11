@@ -7,8 +7,7 @@ date-format: long
 execute:
   echo: false
   warning: false
-website:
-  back-to-top-navigation: true
+
 format:
   html:
     include-in-header:
@@ -17,120 +16,69 @@ format:
 ---
 
 
-# Intro
-Aeldari heavy weapons are a set of 5 weapons that have been part of many Aeldari (or Eldar way before) since 3rd edition. They've been part of some of the most iconic model kits of the faction.
+## Five Iconic Weapons
+Aeldari heavy weapons are a set of 5 weapons that have been part of  Aeldari (or Eldar) codexes with current names and designs since the 3rd edition. They are some of the most iconic Aeldari weapons accompanying Grav tanks, Vypers, Wraithlords, War Walkers, and also Guardian Weapon platforms.
+
+Designed to be heavier than what a typical infantry model can carry, but still not the heaviest in the Aledari arsenal, these weapons offer the flexibility to respond to a variety of threads, which makes it relevant to ask which one is the best to choose from when list-building.
+
+![3rd Edition Codex Eldar Shuriken Cannon ilustration](ShCannon.png){width=400 fig-align="left" fig-alt="Shuriken Cannon ilustration"}
+
+I often see questions on r/Eldar such as [Do Stacannons have a Spot in the current Meta?](https://www.reddit.com/r/Eldar/comments/1itmiuw/do_starcannons_have_a_spot_in_the_new_meta/){.external}, [War Walker Shuriken Cannon instead of BL?](https://www.reddit.com/r/Eldar/comments/1gf2o95/war_walker_shuriken_cannon_instead_of_bl/){.external} or just [Eldar Heavy Weapon Loadouts](https://www.reddit.com/r/Eldar/comments/1iu1jhy/eldar_heavy_weapon_loudouts/){.external}. The following analysis wants to contribute to these conversations by adding a publically available resource to every Warhammer 40k player and Aeldari fan.
+
+In previous editions, wargear costs made every profile choice a more difficult question to answer since each choice would need to be evaluated with its relative points cost in mind. In 10th, Games Workshop made the analysis a bit simpler by getting rid of wargear costs; so now the question only becomes which of the choices is better for the task at hand.
+
+And that's the key still, each weapon is designed to fulfill a specific role. By further exploring the limits of the roles we'll hopefully be able to understand when to add them to a list, and who to shoot at.
 
 
-## Weapons
-War Walkers, Wraithlord, Falcons, Wave Serpents and Guardians Defenders all can choose one or more of the following weaponry:
+## One statline for every role
+The general role of these weapons can be summarized as follows:
 
+Bright lance:
+ : A focused and powerful beam, designed to penetrate armor and deal with the toughest armor.
+
+Missile launcher:
+ : A versatile platform that has a 'sunburst', anti-infantry mode and 'starshot', and a 'krak' anti-vehicle profile. Also, very long-ranged.
+
+Scatter laser: 
+ : A 'laser machine gun' designed to put a lot of light laser shots onto the enemy.
+
+Shuriken Cannon:
+ : A heavier version of the shuriken that can deal with tougher targets. Even then it's not designed to deal with the heaviest enemies it packs a punch for its size.
+
+Starcannon:
+ : A plasma-like weapon often regarded as anti-elite (or anti-MEQ) enemies.
+
+Here are the actual stats from the latest, 10th edition codex:
 {{< include 'ahw_table.html' >}}
+
+By glancing at the stats one can quickly conclude that the Bright Lance should be one of the best-performing weapons, at least for "tall" and tough targets. Also, by glancing at the profiles, it's clear that either the ML sunburst profile or the Scatter Laser can deal with weak but wide targets, such as hordes. But, I still have some questions:
+
+  * What's the role of the mid-strength weapons (Shuriken Cannon and Starcannon)?
+    + Namely, how far does the Shuriken Canon's Lethal Hits go?
+    + How good is the Starcannon's high AP damage?
+  * Is the 'starshot' profile able to compete with Bright Lance for its anti-vehicle role?
+  * Is the ML (with its extra flexibility and extra range) worth taking over the other weapons?
+  * To which degree are the lower S weapons worth pointing at high-toughness enemies looking for chip damage?
+
+Even if you are well versed with the Aeldari arsenal and know the answer to all or some of the questions above from sheer gameplay experience, I'm sure you'll find some value in the charts and tables below.
 
 ## Heatmaps
 
-## Individual Units
+::: {#fig-dam_rel_heatmap}
 
-::: {.panel-tabset}
+[![](TvSV_dam_rel_tem.png){width=100% fig-align="left"}](TvSV_dam_rel_tem.html){.internal}
 
-## Battle Sisters Squad
-{{< include 'stats_BSS.html' echo=false >}}
-
-## Sororitas Rhino
-{{< include 'stats_SR.html' echo=false >}}
-
-## Custodian Guard
-{{< include 'stats_CG.html' echo=false >}}
-
-## Onager Dunecrawler
-{{< include 'stats_OD.html' echo=false >}}
-
-## Skitarii Vanguard
-{{< include 'stats_SV.html' echo=false >}}
-
-## Guardian Defenders
-{{< include 'stats_GD.html' echo=false >}}
-
-## Leman Russ Battle Tank
-{{< include 'stats_LRBT.html' echo=false >}}
-
-## Rogal Dorn Battle Tank
-{{< include 'stats_RDBT.html' echo=false >}}
-
-## Chimera
-{{< include 'stats_Ch.html' echo=false >}}
-
-## Cadian Shock Troops
-{{< include 'stats_CST.html' echo=false >}}
-
-## Daemon Prince of Chaos
-{{< include 'stats_DPoC.html' echo=false >}}
-
-## Beasts of Nurgle
-{{< include 'stats_BoN.html' echo=false >}}
-
-## Knight Abominant
-{{< include 'stats_KA.html' echo=false >}}
-
-## Incubi
-{{< include 'stats_In.html' echo=false >}}
-
-## Raider
-{{< include 'stats_Ra.html' echo=false >}}
-
-## Acolyte Hybrids
-{{< include 'stats_AH.html' echo=false >}}
-
-## Nemesis Dreadknight
-{{< include 'stats_ND.html' echo=false >}}
-
-## Knight Castellan
-{{< include 'stats_KC.html' echo=false >}}
-
-## Hekaton Land Fortress
-{{< include 'stats_HLF.html' echo=false >}}
-
-## Hearthkyn Warriors
-{{< include 'stats_HW.html' echo=false >}}
-
-## Canoptek Wraiths
-{{< include 'stats_CW.html' echo=false >}}
-
-## Necron Warriors
-{{< include 'stats_NW.html' echo=false >}}
-
-## Trukk
-{{< include 'stats_Tr.html' echo=false >}}
-
-## Boyz
-{{< include 'stats_Bo.html' echo=false >}}
-
-## Terminator Squad
-{{< include 'stats_TS.html' echo=false >}}
-
-## Intercessor Squad
-{{< include 'stats_IS.html' echo=false >}}
-
-## Impulsor
-{{< include 'stats_Im.html' echo=false >}}
-
-## Crisis Sunforge Battlesuits
-{{< include 'stats_CSB.html' echo=false >}}
-
-## Strike Team
-{{< include 'stats_ST.html' echo=false >}}
-
-## Tyrannofex
-{{< include 'stats_Ty.html' echo=false >}}
-
-## Tyrant Guard
-{{< include 'stats_TG.html' echo=false >}}
-
-## Termagants
-{{< include 'stats_Te.html' echo=false >}}
+[Relative Damage Heatmap (click to open)](TvSV_dam_rel_tem.html){.internal}
 
 :::
 
 
+
+
+
+## Individual Units
+
+[Unit Tests](Aeldari HW Unit Tests.qmd){.internal}
 
 
 

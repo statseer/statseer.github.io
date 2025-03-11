@@ -1,0 +1,127 @@
+---
+title: "Aledari Heavy Weapons - All Unit Tests"
+execute:
+  echo: false
+  warning: false
+
+format:
+  html:
+    include-in-header:
+      - file: plotly_ref.html
+---
+
+
+## Adeptus Sororitas
+
+### Battle Sisters Squad
+{{< include 'stats_BSS.html' echo=false >}}
+
+### Sororitas Rhino
+{{< include 'stats_SR.html' echo=false >}}
+
+## Adeptus Custodes
+### Custodian Guard
+{{< include 'stats_CG.html' echo=false >}}
+
+## Adeptus Mechanicus
+### Onager Dunecrawler
+{{< include 'stats_OD.html' echo=false >}}
+
+### Skitarii Vanguard
+{{< include 'stats_SV.html' echo=false >}}
+
+## Aeldari
+### Guardian Defenders
+{{< include 'stats_GD.html' echo=false >}}
+
+## Astra Militarum
+### Leman Russ Battle Tank
+{{< include 'stats_LRBT.html' echo=false >}}
+
+### Rogal Dorn Battle Tank
+{{< include 'stats_RDBT.html' echo=false >}}
+
+### Chimera
+{{< include 'stats_Ch.html' echo=false >}}
+
+### Cadian Shock Troops
+{{< include 'stats_CST.html' echo=false >}}
+
+## Chaos Daemons
+### Daemon Prince of Chaos
+{{< include 'stats_DPoC.html' echo=false >}}
+
+### Beasts of Nurgle
+{{< include 'stats_BoN.html' echo=false >}}
+
+## Chaos Knights
+### Knight Abominant
+{{< include 'stats_KA.html' echo=false >}}
+
+## Drukhari
+### Incubi
+{{< include 'stats_In.html' echo=false >}}
+
+### Raider
+{{< include 'stats_Ra.html' echo=false >}}
+
+## Genestealer Cults
+### Acolyte Hybrids
+{{< include 'stats_AH.html' echo=false >}}
+
+### Nemesis Dreadknight
+{{< include 'stats_ND.html' echo=false >}}
+
+## Imperial Knights
+### Knight Castellan
+{{< include 'stats_KC.html' echo=false >}}
+
+## Leagues of Votann
+### Hekaton Land Fortress
+{{< include 'stats_HLF.html' echo=false >}}
+
+## Hearthkyn Warriors
+{{< include 'stats_HW.html' echo=false >}}
+
+## Necrons
+### Canoptek Wraiths
+{{< include 'stats_CW.html' echo=false >}}
+
+## Necron Warriors
+{{< include 'stats_NW.html' echo=false >}}
+
+## Orks
+### Trukk
+{{< include 'stats_Tr.html' echo=false >}}
+
+### Boyz
+{{< include 'stats_Bo.html' echo=false >}}
+
+## Space Marines
+
+### Intercessor Squad
+{{< include 'stats_IS.html' echo=false >}}
+
+### Terminator Squad
+{{< include 'stats_TS.html' echo=false >}}
+
+### Impulsor
+{{< include 'stats_Im.html' echo=false >}}
+
+## T'au
+### Crisis Sunforge Battlesuits
+{{< include 'stats_CSB.html' echo=false >}}
+
+### Strike Team
+{{< include 'stats_ST.html' echo=false >}}
+
+## Tyranids
+### Tyrannofex
+{{< include 'stats_Ty.html' echo=false >}}
+
+### Tyrant Guard
+{{< include 'stats_TG.html' echo=false >}}
+
+### Termagants
+{{< include 'stats_Te.html' echo=false >}}
+

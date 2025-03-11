@@ -2,5 +2,6 @@
 title: "Stat Seer"
 ---
 
-HI!!
-ddd
+
+
+Latest article: ["Aeldari Heavy Weapons Technical Analysis"](/articles/2503%20Aeldari%20HW/2500228%20Aeldari%20HW.html){.internal}
